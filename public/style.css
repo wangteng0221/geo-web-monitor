@@ -1741,7 +1741,7 @@ button.danger:hover:not(:disabled) { background: var(--btn-danger-hover); color:
   padding: 8px 12px;
   background: transparent;
   color: #d2e2e6;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 520;
   box-shadow: none;
 }
