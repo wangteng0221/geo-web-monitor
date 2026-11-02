@@ -1,0 +1,15 @@
+node_modules/
+profiles/
+results/
+data/
+backups/
+.env
+server-*.log
+release-preview/
+work/
+output/
+.env.*
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
