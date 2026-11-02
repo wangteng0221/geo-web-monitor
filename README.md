@@ -46,6 +46,10 @@ pnpm 用户可用 `pnpm install --frozen-lockfile`、`pnpm doctor`、`pnpm start
 
 ![虚构数据演示：选择本次问题和账号](docs/assets/run-selection.png)
 
+![虚构数据演示：平台账号池](docs/assets/accounts.png)
+
+![虚构数据演示：采集结果、报告与人工复核](docs/assets/report.png)
+
 ## 怎样理解结果
 
 - 名称出现不等于推荐、认可或排名。主动提及率以不含我方品牌名称的推荐类有效回答为分母；失败、空正文和已知重复归属不当作品牌未提及。

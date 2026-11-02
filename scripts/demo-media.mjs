@@ -66,7 +66,7 @@ try {
   await page.getByRole('button', { name: '平台账号池', exact: true }).waitFor();
   async function label() {
     await page.evaluate(() => {
-      const neutral = text => text.replace(/豆包网页版|豆包|doubao/gi, '豆包网页版').replace(/DeepSeek\s*网页版|DeepSeek|deepseek/gi, 'DeepSeek 网页版');
+      const neutral = text => text.replace(/豆包网页版|豆包|doubao/gi, '平台 A').replace(/DeepSeek\s*网页版|DeepSeek|deepseek/gi, '平台 B');
       const walk = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
       while (walk.nextNode()) { const node = walk.currentNode; if (!['SCRIPT','STYLE'].includes(node.parentElement?.tagName)) node.textContent = neutral(node.textContent); }
       for (const node of document.querySelectorAll('[placeholder],[title],[aria-label]')) for (const key of ['placeholder','title','aria-label']) if (node.hasAttribute(key)) node.setAttribute(key, neutral(node.getAttribute(key)));
