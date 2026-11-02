@@ -4,6 +4,8 @@
 
 使用 Node.js、SQLite 和 Playwright，保存网页回答、页面来源及截图，再查看历史记录、数据报告和前后变化。[English introduction](docs/README.en.md)。
 
+> **项目来源与致谢：** 本项目基于 [zjunyi465-hue/geo-web-monitor](https://github.com/zjunyi465-hue/geo-web-monitor) 继续开发。感谢原作者创建并开源这个项目。本仓库由我们独立维护，围绕团队日常监测、回答检索、报告分析、来源与变化对照及证据复核持续优化；它不是原作者发布或维护的官方版本。详见[来源与致谢](CREDITS.md)。
+
 运行基线：**Windows + Microsoft Edge + Node.js 24+**。默认仅供本机访问，需要使用者自己的平台账号并手动完成登录、验证。支持豆包网页版和 DeepSeek 网页版；目标网址与适配规则见[网页适配器](src/browser.js)。
 
 ![虚构数据演示：工作台](docs/assets/overview.png)

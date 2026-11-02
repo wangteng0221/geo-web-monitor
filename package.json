@@ -1,7 +1,7 @@
 {
   "name": "geo-web-monitor",
   "version": "0.1.0",
-  "description": "Local GEO monitoring starter for AI web answers, visible sources and screenshots",
+  "description": "Team-maintained improvement of zjunyi465-hue/geo-web-monitor for local GEO monitoring and answer evidence",
   "license": "MIT",
   "packageManager": "pnpm@11.19.0",
   "private": true,

@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 const root = resolve(import.meta.dirname, '..');
 const target = resolve(root, 'release-preview', 'geo-web-monitor-' + new Date().toISOString().replace(/[:.]/g, '-'));
 // Explicitly allowed files and code directories. Never copy the entire workspace.
-const entries = ['README.md', 'LICENSE', 'CONTRIBUTING.md', 'SECURITY.md', '.gitignore', 'package.json', 'pnpm-lock.yaml',
+const entries = ['README.md', 'CREDITS.md', 'LICENSE', 'CONTRIBUTING.md', 'SECURITY.md', '.gitignore', 'package.json', 'pnpm-lock.yaml',
   'CHANGELOG.md', '.editorconfig', '.gitattributes',
   'src', 'public', 'test', 'scripts', '.github', 'examples',
   'docs/README.en.md', 'docs/quickstart.md', 'docs/privacy.md', 'docs/troubleshooting.md', 'docs/architecture.md',

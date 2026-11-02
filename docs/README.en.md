@@ -2,6 +2,8 @@
 
 Observe how a brand appears in saved AI web answers. This local Node.js, SQLite and Playwright project captures page text, displayed sources, screenshots and execution history using your own accounts.
 
+**Project origin and thanks:** This project builds on [zjunyi465-hue/geo-web-monitor](https://github.com/zjunyi465-hue/geo-web-monitor). We thank the original author for creating and open-sourcing the project. This repository is independently maintained for our team's workflow, with ongoing improvements to monitoring, answer search, reporting, source and change comparisons, and evidence review. It is not an official release maintained by the original author. See [Credits](../CREDITS.md).
+
 The tested baseline is **Windows, Microsoft Edge and Node.js 24+**. The server listens on localhost by default. The public package uses Platform A / B display labels; target URLs and adapter rules remain in [the source](../src/browser.js). Generic labels do not anonymize the integrations.
 
 ## Start
